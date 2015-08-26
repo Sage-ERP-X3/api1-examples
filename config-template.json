@@ -1,0 +1,7 @@
+{
+	"#": "This file is only a template - copy it as config.json and adapt the values below",
+	"login": "guest",
+	"password": "guest",
+	"endpoint": "SEED",
+	"host": "localhost:8124"
+}

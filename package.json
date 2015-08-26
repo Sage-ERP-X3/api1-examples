@@ -1,0 +1,14 @@
+{
+	"name": "api1-examples",
+	"description": "Examples of Sage X3 web service calls",
+	"version": "1.0.0",
+	"engines": {
+		"node": ">=0.10.0"
+	},
+	"private": true,
+	"author": "Sage",
+	"devDependencies": {
+		"streamline": "^0.12.1",
+		"ez-streams": "^0.1.7"
+	}
+}
