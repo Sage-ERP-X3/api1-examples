@@ -28,8 +28,9 @@ function getCustomersPage(_, url) {
 
 // Iterates through all the feed's pages
 function readAllCustomers(_) {
-	var url = baseUrl + "/BPCUSTOMER?representation=BPCUSTOMER.$query?count=20";
+	var url = baseUrl + "/BPCUSTOMER?representation=BPCUSTOMER.$query&count=20";
 	var pageNum = 0; // for our page banner
+	console.log("connecting ... (may take a few seconds)");
 	while (true) {
 		var page = getCustomersPage(_, url);
 		console.log("**** PAGE " + ++pageNum + " ****"); // small banner 
